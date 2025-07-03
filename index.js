@@ -18,7 +18,7 @@ app.get('/github/index', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
 }
 
-app.get('/github/contact', (req, res) =>
+app.get('/github/contact', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
 }
 
