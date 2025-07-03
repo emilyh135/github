@@ -14,7 +14,7 @@ app.listen(port, ()  => { // Start the server and listen on the specified port
 
 app.use(express.static(__dirname))
 
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 }
 
