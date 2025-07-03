@@ -12,16 +12,18 @@ app.listen(port, ()  => { // Start the server and listen on the specified port
   console.log(`Server is running on http://localhost:${port}`); // Log a message to the console
 });
 
-app.use(express.static(__dirname))
+app.use(express.static(__dirname));
 
 app.get('/github/index', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
-}
+});
 
 app.get('/github/contact', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
-}
+});
 
 app.get('/github/about', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
-}
+});
+
+      
