@@ -20,4 +20,30 @@ main {
   padding: 20px;
   font-size: 1.2em;
 }
-p {border-radius: 15px;}
+
+/* About page specific styling with border */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-border {
+  border: 3px solid #4CAF50;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-border h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-border p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+} 
