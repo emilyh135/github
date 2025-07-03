@@ -14,14 +14,14 @@ app.listen(port, ()  => { // Start the server and listen on the specified port
 
 app.use(express.static(__dirname))
 
-app.get('/index', (req, res) => {
+app.get('/github/index', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
 }
 
-app.get('/contact', (req, res) =>
+app.get('/github/contact', (req, res) =>
   res.sendFile(__dirname + '/github/index.html');
 }
 
-app.get('/about', (req, res) => {
+app.get('/github/about', (req, res) => {
   res.sendFile(__dirname + '/github/index.html');
 }
